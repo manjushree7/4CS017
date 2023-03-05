@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        h1{
+            text-align: center;
+        }
+        .input{
+            display: block;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 style="color: green;">Herald College survey form</h1>
+    <form style="max-width: 500px; margin: 25px auto; background-color: azure; padding: 10px;">
+        <div class="Form">
+            <label for="name">Name:</label>
+            <input type="text" name="name"placeholder="Enter your name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email"placeholder="Enter your email">
+            <br>
+            <label for="name">Age:</label>
+            <input type="text" name="Age"placeholder="Enter your age">
+        </div>
+        <div class="Option">
+        <p>Which option describes you the best ? </p>
+        <select>
+            <option>Student</option>
+            <option>Teacher</option>
+        </select>
+        </div>
+        <div>
+            <p>Would you recommend Herald College Kathmandu to your friend ? </p>
+            <input type="radio" id="Yes" name="name" value="Yes">
+            <label for="Yes">Yes</label> <br>
+            <input type="radio" id="No" name="name" value="No">
+            <label for="No">No</label> <br>
+            <input type="radio" id="Maybe" name="name" value="Maybe">
+            <label for="Maybe">Maybe</label> <br>
+        </div>
+        <div>
+            <p>Language and frameworks known(Check all that apply)</p>
+            <input type="checkbox" name="name" id="m" value="C"> 
+            <label for="m">C</label> <br>
+            <input type="checkbox" name="name" id="M" value="C++"> 
+            <label for="m">C++</label> <br>
+            <input type="checkbox" name="name" id="m" value="C#"> 
+            <label for="m">C#</label> <br>
+            <input type="checkbox" name="name" id="m" value="Java"> 
+            <label for="m">Java</label> <br>
+            <input type="checkbox" name="name" id="m" value="python"> 
+            <label for="m">python</label> <br>
+            <input type="checkbox" name="name" id="m" value="Javascript"> 
+            <label for="m">Javascript</label> <br>
+            <input type="checkbox" name="name" id="m" value="React">
+            <label for="m">React</label> <br>
+            <input type="checkbox" name="name" id="m" value="Angular">
+            <label for="m">Angular</label> <br>
+            <input type="checkbox" name="name" id="m" value="Django">
+            <label for="m">Django</label> <br>
+            <input type="checkbox" name="name" id="m" value="Spring">
+            <label for="m">Spring</label>
+        </div>
+        <p>Any comments or suggeestions</p>
+        <textarea cols="50" rows="2" type="text"></textarea> <br>
+        <input type="submit" id="submit" class="submit-button" value="submit">
+    </form>
+</body>
+</html>
